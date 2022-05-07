@@ -1,3 +1,6 @@
+// JEGYZET KESZITO ALKALMAZAS
+// FMisi
+// 2022.05.08.
 package com.example.myapplikaciosokadik;
 
 import androidx.appcompat.app.AppCompatActivity;
