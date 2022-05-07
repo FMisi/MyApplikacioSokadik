@@ -68,10 +68,10 @@
         android:background="#000"/>
 
     <TextView
-        android:id="@+id/loginPageQuestion"
+        android:id="@+id/RegistrationPageQuestion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nem van accountod?! Regisztrálj!"
+        android:text="Van már accountod?! Lépj be!"
         android:textSize="18dp"
         android:textColor="#FFF"
         android:layout_gravity="center"
