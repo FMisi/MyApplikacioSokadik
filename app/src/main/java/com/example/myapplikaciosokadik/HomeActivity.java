@@ -1,22 +1,37 @@
 package com.example.myapplikaciosokadik;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.*;
 import androidx.appcompat.widget.*;
 import androidx.recyclerview.widget.*;
+
+import android.app.ProgressDialog;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
+import android.view.*;
 
 import com.google.android.material.floatingactionbutton.*;
+import com.google.firebase.auth.*;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
-import java.util.Objects;
+import java.util.*;
 
 public class HomeActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
     private RecyclerView recyclerView;
     private FloatingActionButton floatingActionButton;
+
+
+    private DatabaseReference reference;
+    private FirebaseAuth mAuth;
+    private FirebaseUser mUser;
+    private String onlineUserID;
+
+    private ProgressDialog loader;
+
+    private String key = "";
+    private String task;
+    private String description;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +48,15 @@ public class HomeActivity extends AppCompatActivity {
         linearLayoutManager.setStackFromEnd(true);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(linearLayoutManager);
+
+
+        loader = new ProgressDialog(this);
+
+        mAuth = FirebaseAuth.getInstance();
+
+        mUser = mAuth.getCurrentUser();
+        onlineUserID = Objects.requireNonNull(mUser).getUid();
+        reference = FirebaseDatabase.getInstance().getReference().child("tasks").child(onlineUserID);
 
         floatingActionButton = findViewById(R.id.fab);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
