@@ -63,4 +63,4 @@
    - MyApplikacioSokadik/app/build/intermediates/apk/debug
 
 - Remélem, tetszeni fog! Jó munkát, sok sikert, minden jót!:D
-										- FMisi#7105
+										- FMisi
