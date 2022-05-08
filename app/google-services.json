@@ -1,41 +1,70 @@
 {
   "project_info": {
-    "project_number": "780277812953",
-    "project_id": "todo-1152b",
-    "storage_bucket": "todo-1152b.appspot.com"
+    "project_number": "845319921409",
+    "project_id": "todo-5695d",
+    "storage_bucket": "todo-5695d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:780277812953:android:17e04f6a26e286e9b7f8c8",
+        "mobilesdk_app_id": "1:845319921409:android:4f430ad43c2adf194d0500",
         "android_client_info": {
           "package_name": "com.example.myapplikaciosokadik"
         }
       },
       "oauth_client": [
         {
-          "client_id": "780277812953-ig2tm1a6sumisqbih9qsa9gbfknlgu6o.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.myapplikaciosokadik",
-            "certificate_hash": "fdb1630a56b7ddc77c0b7109ff18b2bf3613c73b"
-          }
-        },
-        {
-          "client_id": "780277812953-v6ojc4u2lndppg5lgm0jro6a4b0j4nej.apps.googleusercontent.com",
+          "client_id": "845319921409-61ja4muhg0b4mq52o0foc5p7k2rlsrq8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDEbNdi0vhE0a4E_doRlE-N9w1-Cnw1aKM"
+          "current_key": "AIzaSyAlasuJmyc3S4Y0C9Mw5KAVwVz-HlSn-0o"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "780277812953-v6ojc4u2lndppg5lgm0jro6a4b0j4nej.apps.googleusercontent.com",
+              "client_id": "845319921409-61ja4muhg0b4mq52o0foc5p7k2rlsrq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845319921409:android:cc301c967b3c2ed34d0500",
+        "android_client_info": {
+          "package_name": "com.example.myapplikaciosokadik2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845319921409-prle2rbiv1ph3ksmluklasj7i0uhbns1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplikaciosokadik2",
+            "certificate_hash": "fdb1630a56b7ddc77c0b7109ff18b2bf3613c73b"
+          }
+        },
+        {
+          "client_id": "845319921409-61ja4muhg0b4mq52o0foc5p7k2rlsrq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlasuJmyc3S4Y0C9Mw5KAVwVz-HlSn-0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845319921409-61ja4muhg0b4mq52o0foc5p7k2rlsrq8.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

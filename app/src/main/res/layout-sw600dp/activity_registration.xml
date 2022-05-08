@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/background_design"
-    tools:context=".LoginActivity">
+    tools:context=".RegistrationActivity">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/loginToolbar"
+        android:id="@+id/RegistrationToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#000"
@@ -18,17 +18,17 @@
         />
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:src="@drawable/myimage"
         android:layout_marginTop="70dp"
         android:layout_gravity="center"
         />
 
     <EditText
-        android:id="@+id/loginEmail"
+        android:id="@+id/RegistrationEmail"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="100dp"
         android:layout_marginRight="10dp"
@@ -41,12 +41,14 @@
         android:minHeight="48dp"
         android:padding="10dp"
         android:textColor="#FFF"
-        android:textColorHint="#FFF" />
+        android:textColorHint="#FFF"
+        android:textSize="40sp"
+        />
 
     <EditText
-        android:id="@+id/loginPassword"
+        android:id="@+id/RegistrationPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_margin="10dp"
         android:background="@drawable/inputs"
         android:drawableStart="@drawable/ic_lock"
@@ -56,25 +58,27 @@
         android:minHeight="48dp"
         android:padding="10dp"
         android:textColor="#FFF"
-        android:textColorHint="#FFF" />
+        android:textColorHint="#FFF"
+        android:textSize="40sp"
+        />
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/RegistrationButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Belépés"
-        android:textSize="18dp"
+        android:text="Regisztráció"
+        android:textSize="60dp"
         android:textAllCaps="false"
         android:layout_margin="10dp"
         android:textColor="#FFF"
         android:background="#000"/>
 
     <TextView
-        android:id="@+id/loginPageQuestion"
+        android:id="@+id/RegistrationPageQuestion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nem van accountod?! Regisztrálj!"
-        android:textSize="18dp"
+        android:text="Van már accountod?! Lépj be!"
+        android:textSize="60dp"
         android:textColor="#FFF"
         android:layout_gravity="center"
         android:gravity="center"

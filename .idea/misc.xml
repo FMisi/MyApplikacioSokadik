@@ -6,8 +6,18 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/drawable/background_design.xml" value="0.161" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/drawable/ic_add_black_24dp.xml" value="0.152" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/drawable/inputs.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout-land/activity_home.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout-land/activity_login.xml" value="0.16" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout-land/activity_main.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout-land/activity_registration.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout-sw600dp/activity_home.xml" value="0.18032786885245902" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout-sw600dp/activity_login.xml" value="0.18032786885245902" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.18032786885245902" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout-sw600dp/activity_registration.xml" value="0.18032786885245902" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout-sw600dp/input_file.xml" value="0.18032786885245902" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout/activity_constraint.xml" value="0.20516304347826086" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout/activity_home.xml" value="0.20516304347826086" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout/activity_home2.xml" value="0.7674418604651163" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/MyApplikacioSokadik/app/src/main/res/layout/activity_registration.xml" value="0.22826086956521738" />
