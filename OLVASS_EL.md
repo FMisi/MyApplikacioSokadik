@@ -2,6 +2,8 @@
 				LEÍRÁS
 ========================================================================
 
+- Jegyzet készítő alkalmazás
+
 - A projektet az Android Studio BumbleBee | 2021.1.1 Patch 3 IDE-vel készítettem el
 
 - Java letöltése
