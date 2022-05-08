@@ -50,6 +50,7 @@ public class RegistrationActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        // Usin' lifecycle hook!:D
         RegBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final int SPLASH = 3300;
 
-    Animation topAnim, bottomAnim;
+    Animation topAnim, bottomAnim; // a 2 animacio
     ImageView imageView;
     TextView textView;
 

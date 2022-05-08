@@ -12,7 +12,7 @@
         android:id="@+id/loginToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFF"
+        android:background="#000"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/Theme.AppCompat.Light"
         />
@@ -50,7 +50,7 @@
         android:layout_margin="10dp"
         android:textColor="#FFF"
         android:textColorHint="#FFF"
-        android:inputType="textEmailAddress"
+        android:inputType="textPassword"
         android:background="@drawable/inputs"
         android:drawableStart="@drawable/ic_lock"
         android:drawablePadding="10dp"

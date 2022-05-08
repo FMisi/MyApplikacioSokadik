@@ -49,6 +49,7 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        // Usin' lifecycle hook!:D
         loginBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
